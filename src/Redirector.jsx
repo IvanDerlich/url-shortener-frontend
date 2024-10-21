@@ -39,23 +39,4 @@ function Redirector() {
   );
 }
 
-// const styles = {
-//   redirectorContainer: {
-//     display: "flex",
-//     justifyContent: "center",
-//     alignItems: "center",
-//     height: "100vh",
-//     backgroundColor: "#f8f9fa",
-//     fontFamily: "Arial, sans-serif",
-//   },
-//   errorText: {
-//     color: "red",
-//     fontSize: "24px",
-//   },
-//   redirectingText: {
-//     color: "#6c757d",
-//     fontSize: "24px",
-//   },
-// };
-
 export default Redirector;

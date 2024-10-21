@@ -1,0 +1,36 @@
+/* Footer Styles */
+.footer {
+  position: absolute;
+  bottom: -20px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #343a40;
+  height: 100px;
+  color: white;
+}
+
+.creditsText {
+  font-size: 16px;
+  letter-spacing: 1px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.creditLink {
+  color: #ffc107;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.creditLink:hover {
+  color: #ff7f50;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
