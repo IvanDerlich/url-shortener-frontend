@@ -1,4 +1,3 @@
-/* Footer Styles */
 .footer {
   position: absolute;
   bottom: -20px;
@@ -6,7 +5,7 @@
   text-align: center;
   padding: 20px;
   background-color: #343a40;
-  height: 100px;
+  height: 120px;
   color: white;
 }
 
@@ -14,6 +13,23 @@
   font-size: 16px;
   letter-spacing: 1px;
   animation: fadeIn 2s ease-in-out;
+}
+
+.repoLinks {
+  margin-top: 10px;
+  font-size: 14px;
+  animation: fadeIn 3s ease-in-out;
+}
+
+.repoLink {
+  color: #00d1b2;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.repoLink:hover {
+  color: #4dc0b5;
 }
 
 .creditLink {
