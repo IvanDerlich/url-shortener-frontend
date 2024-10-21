@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import styles from "./Redirector.module.css";
 
 function Redirector() {
   const { shortId } = useParams();
-  console.log("shortId: ", shortId);
   const [error, setError] = useState("");
 
   useEffect(() => {
@@ -28,7 +28,34 @@ function Redirector() {
     fetchOriginalUrl();
   }, [shortId]);
 
-  return <div>{error ? <h2>{error}</h2> : <h2>Redirecting...</h2>}</div>;
+  return (
+    <div className={styles.redirectorContainer}>
+      {error ? (
+        <h2 className={styles.errorText}>{error}</h2>
+      ) : (
+        <h2 className={styles.redirectingText}>Redirecting...</h2>
+      )}
+    </div>
+  );
 }
+
+// const styles = {
+//   redirectorContainer: {
+//     display: "flex",
+//     justifyContent: "center",
+//     alignItems: "center",
+//     height: "100vh",
+//     backgroundColor: "#f8f9fa",
+//     fontFamily: "Arial, sans-serif",
+//   },
+//   errorText: {
+//     color: "red",
+//     fontSize: "24px",
+//   },
+//   redirectingText: {
+//     color: "#6c757d",
+//     fontSize: "24px",
+//   },
+// };
 
 export default Redirector;

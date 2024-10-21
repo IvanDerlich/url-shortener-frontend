@@ -1,0 +1,18 @@
+.redirectorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.errorText {
+  color: red;
+  font-size: 24px;
+}
+
+.redirectingText {
+  color: #6c757d;
+  font-size: 24px;
+}
