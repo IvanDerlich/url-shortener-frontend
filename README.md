@@ -1,6 +1,10 @@
 # Link Shortener
 
-You paste a link and I shorten it to you for free
+<p id="description-urlshorteners-frontend"> You paste a link and I shorten it to you for free. This is the front end part of the project <p>
+
+# Demo
+
+<img src="docs/1.gif" id="main-image-urlshortener" />
 
 # [Live Version](https://shorten.ivanderlich.com)
 
@@ -8,11 +12,16 @@ You paste a link and I shorten it to you for free
 
 [Backend repo](https://github.com/IvanDerlich/linkshortener)
 
+# Backend Demo
+
+<img src="docs/2.gif" id="main-image-urlshortener" />
+
 # Technologies Used
 
-- React
-
-- Axios
+<ul id="tech-list-urlshortener-frontend">
+  <li>React</li>
+  <li>Axios</li>
+</ul>
 
 # Author
 
