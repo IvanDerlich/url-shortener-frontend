@@ -14,7 +14,7 @@
 
 # Backend Demo
 
-<img src="docs/2.gif" id="main-image-urlshortener" />
+<img src="docs/2.gif" />
 
 # Technologies Used
 
